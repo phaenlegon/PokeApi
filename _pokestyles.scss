@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.pokeimg{
+    width: 150px;
+    height: 150px;
+}
+.max{
+    background-image: url(./Fonts/Screenshot\ 2023-03-14\ at\ 2.36.25\ AM.png);
+    width: 1680px;
+    height: 340px;
+    background-size: contain;
+}
+.banner{
+    align-items: center;
+    width: 400px;
+    padding-left: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+main{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a390145-1e80-4c9f-bea4-6f11959496cd/del304o-a42b2fab-d054-4ae3-be0b-dcb50b429172.jpg/v1/fill/w_1192,h_670,q_70,strp/pokeball_wallpaper_by_blackholekun_del304o-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvM2EzOTAxNDUtMWU4MC00YzlmLWJlYTQtNmYxMTk1OTQ5NmNkXC9kZWwzMDRvLWE0MmIyZmFiLWQwNTQtNGFlMy1iZTBiLWRjYjUwYjQyOTE3Mi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uUBZCvo3rUs5zwjD83BHcfVX8H_E70EkJqrgIRqBCaw);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 150px 250px;
+    
+}
+
+input {
+    width: 12%;
+    padding: 12px 24px;
+    margin-left: 42.5%;
+    margin-top: 257px;
+
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #575756;
+    background-color: transparent;
+
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #575756;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    
+    &::placeholder {
+        color: color(#575756 a(0.8));
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+    
+    
+}
+.card{
+    margin: 30px;
+    width: 220px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    text-transform:capitalize;
+}
+.background{
+    box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    border: 10px solid rgb(252, 252, 116);
+    width: 250px;
+    height: 280px;
+}
+.backgroundart{
+    
+    width: 200px;
+    height: 150px;
+    margin-left: 23px;
+    border: 2px solid black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGxU9GNqapKGKd7MGgjGEUOKw4bGeGaim4QHYoVEDyKNq7DuJYo6bKyUvFL83tPVvkUz0&usqp=CAU");
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.Name{
+    padding-top: 5px ;
+    padding-left: 5px;
+    text-align: left;
+}
+.type{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.water {
+    background-color: rgba(107, 207, 240, 0.65);
+  }
+  
+.fire {
+    background-color: rgba(253, 109, 96, 0.588);
+  }
+  
+.grass{
+    background-color: rgba(95, 228, 95, 0.843);
+  }
+.bug{
+    background-color: rgba(95, 228, 95, 0.843);
+  }
+.normal{
+    background-color: rgba(199, 199, 199, 0.843);
+}
+.poison{
+    background-color: rgba(162, 90, 238, 0.843);
+}
+.electric{
+    background-color: rgba(213, 238, 90, 0.994);
+}
+.ground{
+    background-color: rgba(190, 130, 0, 0.753);
+}
+.fairy{
+    background-color: rgba(209, 6, 172, 0.994);
+}
+.fighting{
+    background-color: rgba(190, 130, 0, 0.753);
+}
+.psychic{
+    background-color: rgba(162, 90, 238, 0.843);
+}
+.rock{
+    background-color: rgba(190, 130, 0, 0.753);
+}
+.ghost{
+    background-color: rgba(162, 90, 238, 0.843);
+}
+.ice {
+    background-color: rgba(107, 207, 240, 0.595);
+  }
+.dragon{
+    background-color: rgba(199, 199, 199, 0.843);
+}

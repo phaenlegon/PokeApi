@@ -44,9 +44,21 @@ const pintar = (Pokemons) => {
   }
 }
 
+const cogerInput = (Pokemons) =>{
+  const input$$ = document.querySelector("input")
+  input$$.addEventListener("input",() => busqueda(input$$.value,Pokemons))
+}
+const busqueda = (filtro,Pokemons) => {
+  let PokemonesFiltrados = Pokemons.filter((Pokemon)=> Pokemon.name.toLowerCase().includes(filtro)||
+  Pokemon.types.some((type) => type.toLowerCase().includes(filtro)))
+  pintar(PokemonesFiltrados)
+
+}
+
 const init = async () => {
   const Pokemons = await get()
-  pintar(Pokemons)
+  pintar(Pokemons);
+  cogerInput(Pokemons);
 
 }
 init()
